@@ -33,7 +33,7 @@ littleasiatka.github.io/
 │ 	└── (project screenshots, profile photo, etc.)
 ├── README.md
 ├── index.html
-└──  style.css
+└── style.css
 ```
 ---
 
