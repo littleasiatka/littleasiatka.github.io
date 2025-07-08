@@ -1,11 +1,11 @@
 # 💻 Anel Naukan – Personal Portfolio
 Welcome to my personal portfolio website!  
-I'm a Computer Science student passionate about data science, machine learning, and solving real-world problems through code.
+I'm a Computer Science student passionate about data science, machine learning and solving real-world problems through code.
 
 This site showcases:
 - 👩‍💼 About Me: A brief introduction and mission
-- 🧠 Skills: Programming, data analysis, machine learning, tools, and languages
-- 📂 Projects: Highlights of my best work, including data analysis, forecasting, and SQL design
+- 🧠 Skills: Programming, data analysis, machine learning, tools and languages
+- 📂 Projects: Highlights of my best work, including data analysis, forecasting and SQL design
 - 📝 Blog: Reflections on learning, projects, and my journey into tech
 - 📫 Contact: Ways to connect
 
