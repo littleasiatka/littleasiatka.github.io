@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d17959838c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+           <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm <span>Anel</span> Naukan 👋 </h1>
+            <p class="about-me"> Computer Science Student | Aspiring Data Analyst | Tech for Impact</p>
+        </div>
+    </div> 
+</div>
+<!-- ----------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a Computer Science student at IU International University of Applied Sciences in Germany. With 2+ years of 
+                    experience leading volunteer teams and analyzing engagement metrics,  I’ve developed a passion for structured 
+                    problem-solving, data analysis and continuous learning. <br> <br>
+                    Originally from Kazakhstan, I’m fluent in Russian, Kazakh, English and German. I’m currently exploring ways 
+                    to combine technical skill with real-world impact through projects in Python, Java and SQL.</p><br>
+                    <h2 class="sub-title-1">Fun facts</h2>
+                    <p class="about-col-2"> 
+                        📍 Based in Bad Honnef, Germany <br>
+                        💡 Curious about AI, automation and data <br>
+                        🎯 Learning every day — currently diving into Power BI
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Front-end Development</li>
+                        <li><span>Data Analysis</span><br>Data Cleansing/Processing</li>
+                        <li><span>App Development</span><br>Building apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019 - 2022</span><br>Volunteer Program Analyst • Angels of the Volunteering League</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2011-2022</span><br>№15 High School Gymnasium, High School Diploma  <br>Almaty, Kazakhstan</li>
+                        <li><span>2022-2026</span><br>IU International University of Applied Sciences, B.Sc. Computer Science <br>Bad Honnef, Germany</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------projects------------ -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project-1.png">
+                <div class="layer">
+                    <h3>AirBnB-like database</h3>
+                    <p>The Airbnb Database Management System facilitates seamless interactions between guests, hosts, 
+                        administrators and properties, ensuring data integrity and optimized performance</p>
+                    <a href="https://github.com/littleasiatka/airbnb-like_database"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-2.png">
+                <div class="layer">
+                    <h3>U.S. State Finance Forecast</h3>
+                    <p>Analyzed and forecasted U.S. government spending using ARIMA models with 
+                        confidence intervals.</p>
+                    <a href="https://github.com/littleasiatka/time-series-analysis"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-3.png">
+                <div class="layer">
+                    <h3>Netflix Titles — Data Cleaning & EDA</h3>
+                    <p>This project analyzes Netflix's public dataset to explore trends in content types, genres, 
+                        countries, and release timelines.</p>
+                    <a href="https://github.com/littleasiatka/netflix-data-cleansing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!-- ----------blog------------ -->
+<div id="blog">
+    <div class="container">
+        <h1 class="sub-title">My Blog</h1>
+        <div class="blog-list">
+            <div>
+                <h2>📚 My Current Learning Goals: Power BI and Machine Learning</h2>
+                <p>To build a well-rounded data science profile, I’m now focusing on two areas: <br><br>
+                    1. <b>Power BI:</b> I want to get better at creating dashboards and interactive reports that 
+                    communicate data clearly to non-technical audiences.<br><br>
+                    2. <b>Machine Learning:</b> I’m learning how to build supervised ML models using scikit-learn to 
+                    complete projects and apply MI techniques on real datasets.</p>
+            </div>
+            <div>
+                <h2>📺 Exploring Netflix with Data: My First EDA Project</h2>
+                <p>Netflix Titles dataset was my first full end-to-end data cleaning and exploratory data analysis (EDA) project. <br><br>
+                    <b>Some highlights:</b><br>
+                    - Cleaned missing and inconsistent values<br>
+                    - Identified the most frequent genres <br>
+                    - Visualized how Netflix content additions spikes<br><br>
+                    This project helped me to see EDA as an essential first step in any data-driven project.</p>
+            </div>
+            <div>
+                <h2>📈 Forecasting U.S. Government Spending with Time Series Analysis</h2>
+                <p>I used time series analysis and ARIMA to forecast U.S. government spending based on historical financial data. <br><br>
+                    <b>Key takeaways:</b><br>
+                    - Aggregated and visualized spending trends <br>
+                    - Built and tuned an ARIMA model <br>
+                    - Plotted forecasts with confidence intervals <br><br>
+                    The amount of data preparation before modeling showed me that understanding the data is just as important as building the model.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>naukananel@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+49 1521 5768583</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i><a href="www.linkedin.com/in/anel-naukan"></a></a>
+                    <a href="https://github.com/littleasiatka"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Anel. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZjWJ_b8OcOC1IBLWtmyG96-xf0JdkqFk6M-0iVOnle-RH3Jhk6L4X9qiGmcOcSxrS/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succesfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset();
+      }
+       )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
