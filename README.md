@@ -25,13 +25,14 @@ This site showcases:
 
 ---
 
-## 📁 Folder Structure
+## 📁 Folder Structure ##
+
 littleasiatka.github.io/
-├── images/
-│   └── (project screenshots, profile photo, etc.)
-├── README.md 
-├── index.html
-└── style.css
+images/
+	└── (project screenshots, profile photo, etc.)
+README.md 
+index.html
+style.css
 ---
 
 ## 🛠️ Setup Instructions (Optional)
